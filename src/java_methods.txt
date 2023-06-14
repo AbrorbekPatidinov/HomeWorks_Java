@@ -1,0 +1,66 @@
+
+String class methods:
+    length() - size of string or array
+    concat() - connects two strings
+    endsWith() - tests if this string ends with specified suffix
+    indexOf() - Returns the index within this string of the first occurrence of the specified substring
+
+    lastIndexOf() - Returns the index within this string of the last occurrence of the specified substring.
+           The last occurrence of the empty string "" is considered to occur at the index value this.length().
+
+    getBytes() - Encodes this String into a sequence of bytes using the default charset, storing the result into a new byte array.
+                 The behavior of this method when this string cannot be encoded in the default charset is unspecified.
+                 The CharsetEncoder class should be used when more control over the encoding process is required
+
+    toLowerCase() - Converts all of the characters in this String to lower case
+    toUpperCase() - Converts all of the characters in this String to upper case
+
+    charAt() - Returns the char value at the specified index. An index ranges from 0 to length() - 1.
+                 The first char value of the sequence is at index 0, the next at index 1, and so on, as for array indexing.
+
+    substring() - Returns a string that is a substring of this string.
+                 The substring begins with the character at the specified index and extends to the end of this string.
+                 Examples:
+                   "unhappy".substring(2) returns "happy"
+
+    subSequence() - Returns a character sequence that is a subsequence of this sequence.
+                    An invocation of this method of the form
+                    Example:
+                      str.subSequence(begin, end)
+
+    repeat() - Returns a string whose value is the concatenation of this string repeated count times.
+               If this string is empty or count is zero then the empty string is returned.
+               Params:
+               count – number of times to repeat
+               Returns:
+               A string composed of this string repeated count times or the empty string if this string is empty or count is zero
+               Throws:
+               IllegalArgumentException – if the count is negative.
+
+    replace() - Replaces each substring of this string that matches the literal target sequence with the specified literal replacement sequence.
+                The replacement proceeds from the beginning of the string to the end,
+                for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
+                Params:
+                target – The sequence of char values to be replaced replacement – The replacement sequence of char values
+                Returns:
+                The resulting string
+
+    split() - Splits this string around matches of the given regular expression.
+              This method works as if by invoking the two-argument split method with the given expression and a limit argument of zero.
+              Trailing empty strings are therefore not included in the resulting array.
+              The string "boo:and:foo", for example, yields the following results with these expressions:
+
+              Split examples showing regex and result
+              Regex
+              Result
+              :
+              { "boo", "and", "foo" }
+              o
+              { "b", "", ":and:f" }
+              Params:
+              regex – the delimiting regular expression
+
+
+
+
+
