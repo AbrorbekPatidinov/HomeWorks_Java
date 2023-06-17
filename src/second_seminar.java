@@ -6,6 +6,7 @@ public class second_seminar {
         // First task
         String json = "{\"name\":\"Ivanov\",\"country\":\"Russia\",\"city\":\"Moscow\",\"age\":\"null\"}";
         JSONObject filter = new JSONObject(json);
+
         StringBuilder whereClause = new StringBuilder();
         for (String key : filter.keySet()) {
             String value = filter.getString(key);
@@ -53,7 +54,7 @@ public class second_seminar {
         start = System.currentTimeMillis();
         for (int i = 0; i < stringBuilder.length(); i++) {
             stringBuilder.setCharAt(i, 'A');
-        }
+        } 
         end = System.currentTimeMillis();
         System.out.println("Time: " + (end - start) + " ms");
     }

@@ -60,6 +60,78 @@ String class methods:
               Params:
               regex – the delimiting regular expression
 
+    equals() - Indicates whether some other object is "equal to" this one.
+
+    trim() - Returns a string whose value is this string, with all leading and trailing space removed
+
+    equalsIgnoreCase() - Compares this String to another String, ignoring case considerations.
+
+    startsWith() - Tests if this string starts with the specified prefix.
+
+    endsWith() - Tests if this string ends with the specified prefix.
+
+    contains() - Returns true if and only if this string contains the specified sequence of char values.
+
+    replaceAll() - replaces all occurrences of the substring that matches the specified
+
+
+
+
+StringBuilder class methods:
+    1. append(): добавляет значения в конец строки.
+       Например: StringBuilder sb = new StringBuilder("Hello"); sb.append(" world"); // sb теперь содержит "Hello world"
+
+
+    2. insert(): вставляет значения в указанное место строки.
+       Например: StringBuilder sb = new StringBuilder("Hello"); sb.insert(2, "world"); // sb теперь содержит "Heworldllo"
+
+
+    3. delete(): удаляет указанный диапазон символов из строки.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); sb.delete(5,11); // sb теперь содержит "Hello"
+
+
+    4. reverse(): переворачивает символы в строке.
+       Например: StringBuilder sb = new StringBuilder("Hello"); sb.reverse(); // sb теперь содержит "olleH"
+
+
+    5. replace(): заменяет указанный диапазон символов на новую строку.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); sb.replace(6,11,"Java"); // sb теперь содержит "Hello Java"
+
+
+    6. charAt(): возвращает символ, находящийся в указанной позиции.
+       Например: StringBuilder sb = new StringBuilder("Hello"); char ch = sb.charAt(2); // ch содержит 'l'
+
+
+    7. setCharAt(): устанавливает символ в указанной позиции.
+       Например: StringBuilder sb = new StringBuilder("Hello"); sb.setCharAt(2, 'a'); // sb теперь содержит "Healo"
+
+
+    8. substring(): возвращает подстроку из указанного диапазона.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); String s = sb.substring(6,11); // s содержит "world"
+
+
+    9. indexOf(): возвращает индекс первого вхождения указанного символа или строки.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); int index = sb.indexOf("world"); // index содержит 6
+
+
+    10. lastIndexOf(): возвращает индекс последнего вхождения указанного символа или строки.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); int index = sb.lastIndexOf("l"); // index содержит 9
+
+
+    11. length(): возвращает длину строки.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); int len = sb.length(); // len содержит 11
+
+
+    12. capacity(): возвращает ёмкость буфера, используемого для хранения строки.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); int cap = sb.capacity(); // cap содержит 16
+
+
+    13. ensureCapacity(): увеличивает ёмкость буфера, используемого для хранения строки, если текущая ёмкость меньше требуемой.
+       Например: StringBuilder sb = new StringBuilder("Hello world"); sb.ensureCapacity(50); // sb теперь имеет ёмкость буфера 50
+
+
+
+
 
 
 
