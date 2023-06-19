@@ -1,18 +1,12 @@
-import org.json.JSONPropertyName;
-
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Random;
+import java.util.List;
+import java.util.Scanner;
 
 public class only_practice {
-   public static void main(String[] args)
-   {
+   public static void main(String[] args) {
       System.out.println();
 
-
-
-
+      
 
       System.out.println();
    }
