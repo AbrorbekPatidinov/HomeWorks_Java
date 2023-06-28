@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class sixth_seminar_HashSetImitation {
+public class last_seminar_task_HashSetImitation {
     private final List<Integer> set;
-    public sixth_seminar_HashSetImitation() {
+    public last_seminar_task_HashSetImitation() {
         set = new ArrayList<>();
     }
     public void add(Integer element) {
@@ -17,7 +17,7 @@ public class sixth_seminar_HashSetImitation {
         else throw new IndexOutOfBoundsException("Invalid Index");
     }
     public static void main(String[] args) {
-        sixth_seminar_HashSetImitation hashSetImitation = new sixth_seminar_HashSetImitation();
+        last_seminar_task_HashSetImitation hashSetImitation = new last_seminar_task_HashSetImitation();
         hashSetImitation.add(1);
         hashSetImitation.add(2);
         hashSetImitation.add(3);
