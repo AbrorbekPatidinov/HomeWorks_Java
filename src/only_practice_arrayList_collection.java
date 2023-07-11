@@ -1,4 +1,7 @@
-import java.util.*;
+import java.lang.Character;
+import java.util.ArrayList;
+import java.lang.*;
+import java.util.Collections;
 
 public class only_practice_arrayList_collection {
     static void show_items_of_arrayList_integer(ArrayList<Integer> arrayList, boolean show_index) {
@@ -31,7 +34,7 @@ public class only_practice_arrayList_collection {
       characterArrayList.add(2, '&');
       characterArrayList.add(3, '%');
 
-      ArrayList<Character> characterArrayListClone = (ArrayList<Character>) characterArrayList.clone();
+      ArrayList<java.lang.Character> characterArrayListClone = (ArrayList<Character>) characterArrayList.clone();
 
       ArrayList<Float> floatArrayList = new ArrayList<>();
 
