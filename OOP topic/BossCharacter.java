@@ -1,14 +1,13 @@
-public abstract class BaseCharacter implements Character {
-    String name, catalyst;
+public abstract class BossCharacter {
+    String name;
+    String weaponName;
     int health, mana, stamina;
     int intelligence, faith;
-
     Coordinates coordinates;
-
-    public BaseCharacter(String name, String catalyst, int health, int mana,
-                         int stamina, int intelligence, int faith, int x, int y) {
+    public BossCharacter(String name, String weaponName, int health, int mana, int stamina, int intelligence,
+                         int faith, int x, int y) {
         this.name = name;
-        this.catalyst = catalyst;
+        this.weaponName = weaponName;
         this.health = health;
         this.mana = mana;
         this.stamina = stamina;
